@@ -101,3 +101,44 @@ footer ul {
     padding: 0;
     margin: 0;
 }
+
+@media only screen and ( min-width: 645px ) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    .content {
+        width: 70%;
+        margin-top: -100px;
+        z-index: 2;
+    }
+
+    .bottom-images {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bottom-images img {
+        width: 100px;
+    }
+
+    .bottom-image-1, .bottom-image-2 {
+        display: flex;
+        align-items: center;
+        width: 50%;
+        gap: 10px;
+        margin: 1.25rem 0;
+    }
+
+    .footer-content {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 70%;
+        margin: 0 auto;
+    }
+}
