@@ -5,3 +5,30 @@
 h2, h3 {
     color: rgb(235, 147, 31);
 }
+header{
+    background: rgb(124, 13, 134);
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.searchBar {
+    padding: 10px;
+}
+.searchBar i {
+    position: absolute;
+    margin: 5px;
+}
+
+.search {
+    padding-left: 25px;
+}
